@@ -1,0 +1,362 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html body {
+	font-family: "Segoe UI", sans-serif;
+}
+
+html body p {
+	color: #757575;
+	line-height: 28px;
+	font-size: 15px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(./img/first-section-bg.png);
+	padding: 0 150px;
+}
+
+.jumbotron h1 {
+	color: whitesmoke;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	text-transform: uppercase;
+	margin-top: 20px;
+	color: whitesmoke;
+	font-size: 17px;
+}
+
+/* Akhir Jumbotron */
+
+/* Features */
+
+.features {
+	margin: 100px 0;
+	padding: 0 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.feature {
+	margin: 0 20px;
+}
+
+.feature h4 {
+	margin: 20px 0;
+	color: #45459c;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/* Akhir Features  */
+
+/* Description */
+
+.description {
+	margin: 100px 0;
+	padding: 250px 150px;
+	background-image: url(img/third-section-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+}
+
+.description-text {
+	margin-left: 30px;
+	color: whitesmoke;
+}
+
+.description-text h4 {
+	font-weight: 100;
+	font-size: 23px;
+}
+
+.description-text h2 {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 20px 0;
+}
+
+.description-text p {
+	width: 700px;
+	color: whitesmoke;
+}
+
+/* Akhir Description */
+
+/* Gallery */
+
+.gallerys {
+	margin: 100px 0;
+	padding: 250px 150px;
+	background-image: url(./img/fourth-section-bg.png);
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery {
+	background-color: #ececec;
+	height: 350px;
+}
+
+.gallery p {
+	margin: 10px 15px;
+}
+
+.gallery h4 {
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 15px;
+}
+
+.see-more {
+	background-color: #5050a8;
+	height: 350px;
+	width: 270px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.see-more p {
+	font-size: 16px;
+	color: whitesmoke;
+}
+
+.see-more button {
+	border: 0px solid whitesmoke;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px;
+	color: #1f1f1f;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	box-shadow: 20px;
+	transition: 0.4s ease;
+}
+
+.see-more button:hover {
+	background-color: #0c0c0cc4;
+	color: whitesmoke;
+}
+
+/* Akhir Gallery */
+
+/* Description */
+
+.description-two {
+	margin: 100px 0;
+	padding: 250px 150px;
+	background-image: url(./img/fivth-section-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+}
+
+.description-two-text {
+	width: 600px;
+	text-align: right;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	color: whitesmoke;
+}
+
+.description-two-text h4 {
+	font-size: 23px;
+	font-weight: 100;
+}
+
+.description-two-text h3 {
+	font-weight: bold;
+	margin: 10px 0;
+	font-size: 30px;
+}
+
+.description-two-text p {
+	color: whitesmoke;
+}
+
+/* Akhir Description */
+
+/* Message */
+
+.message {
+	margin: 100px 0;
+	padding: 100px 150px;
+	background-image: url(./img/sixth-section-bg.png);
+	background-size: cover;
+	background-position-y: -100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.message-form-oneline {
+	width: 50%;
+	user-select: none;
+}
+
+.message-form-oneline input {
+	width: 48.5%;
+	border: 1px solid #e4e4e4;
+	border-radius: 20px;
+	padding: 13px 15px;
+	box-shadow: 0px 0px 1px #222222;
+	outline: none;
+	transition: 0.2s ease;
+}
+.message-form-oneline input:nth-child(2) {
+	margin-left: 13px;
+}
+
+.message-form-oneline input:hover,
+.message-form-oneline textarea:hover {
+	box-shadow: 0px 0px 7px #5b9cf1;
+}
+
+.message-form-oneline textarea {
+	width: 100%;
+	height: 150px;
+	padding: 13px 15px;
+	margin: 20px 0;
+	border: 1px solid #e4e4e4;
+	border-radius: 20px;
+	box-shadow: 0px 0px 1px #222222;
+	font-family: "Segoe UI", sans-serif;
+	outline: none;
+	transition: 0.2s ease;
+}
+
+.message-form-oneline button {
+	padding: 13px 15px;
+	border: 0px solid;
+	background-color: #58588f;
+	color: whitesmoke;
+	font-weight: bold;
+	border-radius: 20px;
+	transition: 0.4s ease;
+	box-shadow: 0px 0px 1px #222222;
+	cursor: pointer;
+}
+
+.message-form-oneline button:hover {
+	background-color: #333333;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.contact .border {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #5050a8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
+}
+
+.contact img {
+	width: 40%;
+	color: #58588f;
+	cursor: pointer;
+	user-select: none;
+}
+
+.contact p {
+	font-weight: bold;
+	margin-left: 10px;
+	color: #58588f;
+}
+
+/* Akhir Message */
+
+/* Footer */
+
+footer {
+	padding: 100px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(./img/footer-bg.png);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer ul {
+	margin-top: 100px;
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+}
+
+footer ul li {
+	border: 0px solid;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	line-height: 35px;
+	background-color: whitesmoke;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+footer ul li:hover {
+	background-color: #181818c7;
+}
+
+footer ul li a i {
+	color: #58588f;
+}
+
+footer p {
+	margin-top: 8px;
+	color: whitesmoke !important;
+}
