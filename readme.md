@@ -1,4 +1,4 @@
-# Website Ziggy
+# Website Showpage
 
 ## Apa dan Tujuan
 
@@ -12,7 +12,9 @@ Website ini merupakan website hasil cloning dari sebuah _template_ yang saya tem
 
 -   Html
 -   Css
+-   Bootstrap
+-   Javascript
 
-## Catatan
+## Fitur
 
-Di dalamnya sudah tersedia versi perbaikan, namun website masih belum responsif.
+-   Responsif di berbagai perangkat _mobile_
